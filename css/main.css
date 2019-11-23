@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #272727;
+}
+
+a.navbar-brand {
+    font-weight: bold;
+}
+
+.search {
+    padding: 5px 12px;
+}
+
+.search input {
+    width: 85% !important;
+}
+
+footer {
+    background-color: #272727;
+    height: 100px;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+}
