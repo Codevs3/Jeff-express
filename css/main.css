@@ -1,9 +1,13 @@
 html {
     box-sizing: border-box;
+     overflow-x: hidden;
 }
 
 * {
     box-sizing: border-box;
+}
+body {
+   
 }
 
 nav {
@@ -19,9 +23,70 @@ a.navbar-brand {
 }
 
 .search input {
-    width: 85% !important;
+    width: 85% ;
+}
+.heading {
+    clip-path: polygon(0% 0, 100% 0%, 76% 100%, 0% 100%);
+    background-color: #272727;
+    padding: 0 10px;
+    width: 330px;
+    font-weight: bold;
+    color: #fff;
+    padding: 12px;
+}
+.categories .card-body:hover {
+    cursor: pointer;
 }
 
+.product {
+    margin: 15px;
+    padding: 10px 0 0;
+    border-radius: 3%;
+    width: 10rem;
+}
+@media (min-width: 500px){
+    .product {
+        width: auto;
+    }
+}
+.product:hover {
+    /* box-shadow: 0px 11px 28px 0px rgba(0,0,0,0.35); */
+    transform: translateY(-5px);
+}
+.img-box {
+    width: 125px;
+    margin: 0 auto;
+    padding: 13px;
+    height: 225px;
+}
+.discount-price {
+   font-size: 1.2rem ;
+}
+.main-price {
+    text-decoration: line-through;
+}
+.item-actions {
+    text-align: center;
+    line-height: 1.3rem;
+}
+/* .zoom {
+    transition: transform .2s; /* Animation 
+    ;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) 
+    
+  } */
+
+  .card-body{
+      height: 150px;
+      padding: 1rem;
+    }
+
+.product .card-body:hover {
+    background-color: #efeded;
+}
 footer {
     background-color: #272727;
     height: 100px;
